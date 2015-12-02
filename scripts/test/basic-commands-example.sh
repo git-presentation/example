@@ -9,7 +9,7 @@ echo "We see that we have a file that is not in version control (untracked), so 
 git add README
 echo "We check the status again, and also check the diff"
 git status
-git diff
+git diff --staged
 echo "Now we commit this change"
 git commit -m "Initial Commit"
 echo "Now check the status again, and check the log"
