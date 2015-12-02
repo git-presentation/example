@@ -14,6 +14,8 @@ git fetch && git rebase
 echo "Now check what was changed"
 git status
 git diff
+echo "Show that we are not on a branch"
+git branch
 echo "Resolve the conflict"
 sed '/==.*/d' README | sed '/>>.*/d' | sed '/<<.*/d'
 sed '/==.*/d' README | sed '/>>.*/d' | sed '/<<.*/d' > NEW-README
