@@ -16,8 +16,4 @@ git checkout feature2
 sh "$dir/../random-commit.sh"
 git checkout master
 git merge --no-ff --no-edit feature1
-git checkout feature2
-sh "$dir/../random-commit.sh"
-git checkout master
-git merge --no-ff --no-edit feature2
 cd ..
