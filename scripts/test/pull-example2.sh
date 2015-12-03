@@ -10,7 +10,6 @@ git commit -am "Commit"
 echo "Push it"
 git push
 echo "That did not work. Try to fetch and rebase"
-git fetch
-git rebase
+git pull --no-edit
 echo "And push again"
 git push
