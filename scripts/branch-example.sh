@@ -1,5 +1,5 @@
 dir="$(dirname "$0")"
-sh "$dir/push-example.sh"
+sh "$dir/init-repos.sh"
 echo "Adding some commits and branches..."
 cd local-repository
 sh "$dir/../random-commit.sh"

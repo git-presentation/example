@@ -1,5 +1,5 @@
 dir="$(dirname "$0")"
-sh "$dir/push-example.sh"
+sh "$dir/init-repos.sh"
 echo "Adding another commit..."
 cd local-repository
 echo "You can add something here\n\n\n\n\n\n\nBut don't change anything here" > README

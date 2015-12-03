@@ -15,7 +15,6 @@ echo "Now check what was changed"
 git status
 git diff
 echo "Resolve the conflict"
-sed '/==.*/d' README | sed '/>>.*/d' | sed '/<<.*/d'
 sed '/==.*/d' README | sed '/>>.*/d' | sed '/<<.*/d' > NEW-README
 mv NEW-README README
 echo "Check your changes"

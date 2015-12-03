@@ -17,7 +17,6 @@ git diff
 echo "Show that we are not on a branch"
 git branch
 echo "Resolve the conflict"
-sed '/==.*/d' README | sed '/>>.*/d' | sed '/<<.*/d'
 sed '/==.*/d' README | sed '/>>.*/d' | sed '/<<.*/d' > NEW-README
 mv NEW-README README
 echo "Check your changes"
